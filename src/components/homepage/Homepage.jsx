@@ -1,10 +1,13 @@
 import React from "react";
-import { AppBar, Toolbar, Typography, Button } from "@mui/material";
+import { AppBar, Toolbar, Typography, Button, Box } from "@mui/material";
 import useStyles from "./styles";
+import { useGetCrytosQuery } from "../../services/cryptoApi";
 
 const Homepage = () => {
+    const { data, isLoading } = useGetCrytosQuery();
+    console.log(data);
     return ( 
-        <h1>Homepage</h1>
+        <Typography marginTop="20px" variant="h1">Homepage</Typography>
     );
 }
  

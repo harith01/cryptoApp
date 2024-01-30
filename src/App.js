@@ -11,10 +11,8 @@ import { Box } from "@mui/material";
 function App() {
   return (
     <div className="app">
-      <Box >
-        
+      <Box height="40px">
           <Navbar />
-        
       </Box>
       <Box>
        
