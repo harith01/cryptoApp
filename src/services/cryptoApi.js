@@ -5,10 +5,7 @@ const cryptoApiHeaders = {
     'X-RapidAPI-Host': `${process.env.REACT_APP_RAPID_API_HOST}`,
 }
 
-// const cryptoApiHeaders = {
-//     'X-RapidAPI-Key': '11b3430d03msh03e2bec5b174da3p1c3784jsn8ae0d7539b43',
-//     'X-RapidAPI-Host': 'coinranking1.p.rapidapi.com'
-// }
+
 
 const baseUrl = 'https://coinranking1.p.rapidapi.com/';
 
